@@ -1,15 +1,12 @@
-import "./App.css";
+import './App.css'
+import MidPage from './components/Functional/MidPage/MidPage'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Muiz like shit weh weh inside the the the{" "}
-      </header>
-      <h2>tada!!</h2>
-      <h2>tada!!</h2>
+      <MidPage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

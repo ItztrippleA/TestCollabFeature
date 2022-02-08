@@ -1,12 +1,32 @@
 import React from 'react'
+import Blogs from '../Blogs/Blogs'
+// import MidText from '../MidText/MidText'
 
 const MidCard = () => {
+  // const [post, setPost] = useState([])
+  // var options = {
+  //   method: 'GET',
+  //   url: 'https://yummly2.p.rapidapi.com/feeds/list',
+  //   params: { limit: '5', start: '0', tag: 'list.recipe.popular' },
+  //   headers: {
+  //     'x-rapidapi-host': 'yummly2.p.rapidapi.com',
+  //     'x-rapidapi-key': '4370470604msh3f176b397b35c82p17a945jsne17851935936',
+  //   },
+  // }
+  // useEffect(() => {
+  //   axios
+  //     .request(options)
+  //     .then(function (response) {
+  //       // console.log(response.data)
+  //       setPost(response.data.feed)
+  //     })
+  //     .catch(function (error) {
+  //       console.error(error)
+  //     })
+  // })
   return (
-    <div>
-      <div class="w-80 h-80 mx-24 absolute mt-5 bg-slate-100 rounded-xl p-8 dark:bg-slate-800/40 ">
-        <h2 class="text-white text-center">hello world</h2>
-        <hr />
-      </div>
+    <div className=" ">
+      <Blogs />
     </div>
   )
 }

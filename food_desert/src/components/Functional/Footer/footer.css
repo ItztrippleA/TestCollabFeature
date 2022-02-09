@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  height: 48.6rem;
+  width: 73rem;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.title_input {
+  width: 60rem;
+  margin-top: 50px;
+  background: rgb(239, 239, 239);
+  margin-left: 70px;
+}
+::placeholder {
+  color: green;
+  padding: 10px;
+}
